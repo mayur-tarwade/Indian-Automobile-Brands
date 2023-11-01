@@ -1,10 +1,10 @@
 import streamlit as st
 
-st.header('Greatest Indian Brands')
-st.title('CARS 4 You...')
+st.title('Greatest Indian Brands')
+st.header('CARS 4 U...')
 option = st.sidebar.selectbox('Indian Brands',['TATA','Maruti','Mahindra'])
 if option == 'TATA':
-    st.title('TATA Cars...')
+    st.subheader('TATA Cars')
     st.sidebar.selectbox('TATA Cars',['Nexon','Safari','Tiago','Harrier'])
     col1, col2, col3, col4 = st.columns(4)
     with col1:
@@ -26,7 +26,7 @@ if option == 'TATA':
 
 elif option == 'Maruti':
     st.title('Maruti Cars...')
-    st.sidebar.selectbox('Maruti Cars',['Wagonr','Alto','Clerio','Swift'])
+    st.sidebar.selectbox('Maruti Cars',['Wagonr','Alto','Celerio','Swift'])
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
@@ -66,4 +66,5 @@ else:
         st.image('download (1).jpeg')
         st.title('EV')
         st.metric('Rs', str(8.50) + ' Lac')
+
 
