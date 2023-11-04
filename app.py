@@ -66,5 +66,3 @@ else:
         st.image('image/download (1).jpeg')
         st.subheader('EV')
         st.metric('Rs', str(8.50) + ' Lac')
-
-
