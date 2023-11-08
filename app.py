@@ -2,10 +2,10 @@ import streamlit as st
 
 st.title('Greatest Indian Automobile Brands')
 st.header('CARS 4 U')
-option = st.sidebar.selectbox('Indian Brands',['TATA','Maruti','Mahindra'])
+option = st.sidebar.selectbox('INDIAN BRANDS',['TATA','Maruti','Mahindra'])
 if option == 'TATA':
     st.subheader('TATA Cars')
-    st.sidebar.selectbox('TATA Cars',['Nexon','Safari','Tiago','Harrier'])
+    st.sidebar.selectbox('TATA CARS',['Nexon','Safari','Tiago','Harrier'])
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.image('image/tata_nexon_ev_max-sixteen_nine.jpg')
@@ -25,7 +25,7 @@ if option == 'TATA':
         st.metric('Rs', str(8.70) + ' Lac')
 
 elif option == 'Maruti':
-    st.subheader('Maruti Cars')
+    st.subheader('MARUTI CARS')
     st.sidebar.selectbox('Maruti Cars',['Wagonr','Alto','Celerio','Swift'])
     col1, col2, col3, col4 = st.columns(4)
 
@@ -46,7 +46,7 @@ elif option == 'Maruti':
         st.subheader('LXI')
         st.metric('Rs', str(8.50) + ' Lac')
 else:
-    st.subheader('Mahindra Cars')
+    st.subheader('MAHINDRA CARS')
     st.sidebar.selectbox('Mahindra Cars',['XUV300','XUV400','XUV500','XUV700','Thar4X4'])
     col1, col2, col3, col4 = st.columns(4)
 
@@ -66,3 +66,5 @@ else:
         st.image('image/download (1).jpeg')
         st.subheader('EV')
         st.metric('Rs', str(8.50) + ' Lac')
+
+st.header("Other Automobile Brands")
