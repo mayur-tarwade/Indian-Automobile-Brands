@@ -5,6 +5,7 @@ st.header('CARS 4 U')
 option = st.sidebar.selectbox('INDIAN BRANDS',['TATA','Maruti','Mahindra'])
 if option == 'TATA':
     st.subheader('TATA Cars')
+    st.sidebar.image('image/Tata-Group-logo-3840x2160.png')
     st.sidebar.selectbox('TATA CARS',['Nexon','Safari','Tiago','Harrier'])
     col1, col2, col3, col4 = st.columns(4)
     with col1:
@@ -26,6 +27,7 @@ if option == 'TATA':
 
 elif option == 'Maruti':
     st.subheader('MARUTI CARS')
+    st.sidebar.image('image/maruti-logo-maruti-icon-free-free-vector.jpg')
     st.sidebar.selectbox('Maruti Cars',['Wagonr','Alto','Celerio','Swift'])
     col1, col2, col3, col4 = st.columns(4)
 
@@ -47,6 +49,7 @@ elif option == 'Maruti':
         st.metric('Rs', str(8.50) + ' Lac')
 else:
     st.subheader('MAHINDRA CARS')
+    st.sidebar.image('image/download.jpeg')
     st.sidebar.selectbox('Mahindra Cars',['XUV300','XUV400','XUV500','XUV700','Thar4X4'])
     col1, col2, col3, col4 = st.columns(4)
 
