@@ -68,3 +68,11 @@ else:
         st.metric('Rs', str(8.50) + ' Lac')
 
 st.header("Other Automobile Brands")
+
+st.sidebar.title('Menu')
+st.sidebar.markdown ("""
+- Home
+- Who we are?
+- Services
+- Contact
+""")
