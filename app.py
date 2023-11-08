@@ -78,3 +78,9 @@ st.sidebar.markdown ("""
 - Contact
 - Profile
 """)
+option = st.sidebar.selectbox('Select One',['Dealer','Quatation'])
+st.sidebar.button('Select')
+if option == 'Dealer':
+    st.title('Dealers in the Town')
+else:
+    st.title('Quatations')
