@@ -74,5 +74,7 @@ st.sidebar.markdown ("""
 - Home
 - Who we are?
 - Services
+- Finance
 - Contact
+- Profile
 """)
