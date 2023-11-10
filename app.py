@@ -86,4 +86,4 @@ st.sidebar.button('Select')
 if option == 'Dealer':
     st.title('Dealers in the Town')
 else:
-    st.title('Quatations')
+    st.title('Best Quatations from Dealers')
